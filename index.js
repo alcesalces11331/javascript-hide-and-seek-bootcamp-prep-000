@@ -8,5 +8,7 @@ function nestedTarget() {
 
 function increaseRankBy(n) {
   const rankedLists = document.querySelectorAll('.ranked-list')
-  const 
+  const firstList = rankedLists[0]
+  const secondList = rankedLists[0]
+  
 }
