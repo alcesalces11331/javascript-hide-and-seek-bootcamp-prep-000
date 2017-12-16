@@ -10,7 +10,9 @@ function increaseRankBy(n) {
   const rankedLists = document.querySelectorAll('.ranked-list')
   const firstList = rankedLists[0]
   const secondList = rankedLists[0]
-  for (var i = 0; i < firstList.length; i++) {
+  let child1 = firstList.children
+  let child2 = secondList.children
+  for (var i = 0; i < child1.length; i++) {
     
   }
 }
